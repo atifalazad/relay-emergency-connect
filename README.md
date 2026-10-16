@@ -34,4 +34,4 @@ Original NAJDA layout and flow. Manrope, Tabler icons, React and Three.js retain
 
 ## Identity
 
-Najda | نجدة — Emergency Connect. The app uses its own teal bilingual wordmark and connected-stroke icon. The school crest is not displayed or included in the current source package. The original project URL remains unchanged so existing links keep working. Legacy RELAY-named download URLs are compatibility aliases for the current Najda files.
+Najda | نجدة — Emergency Connect. The app uses its own bilingual wordmark and connected-stroke icon, with colours that follow the selected help type. The school crest is not displayed or included in the current source package. The original project URL remains unchanged so existing links keep working. Legacy RELAY-named download URLs are compatibility aliases for the current Najda files.
