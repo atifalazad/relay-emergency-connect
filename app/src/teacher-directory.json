@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "mode": "demonstration",
+  "locationSource": "Manually selected floor and optional block; no staff tracking",
+  "teachers": [
+    {
+      "id": "duty-teacher",
+      "name": "Duty teacher",
+      "initials": "DT",
+      "availability": "demonstration role",
+      "positionSource": "shared school inbox; no live positions"
+    }
+  ],
+  "office": {
+    "name": "School office",
+    "phone": "+97444499100",
+    "displayPhone": "+974 4449 9100"
+  }
+}

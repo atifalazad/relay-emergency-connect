@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {escalateRequest,reportNoAdult,confirmHandover,ESCALATION_MS} from './src/request-model.mjs';
+const t=100000,base={status:'waiting',sentAt:t,type:'medical',floor:2,block:'B',locationChoice:'indoor',messages:[],acknowledgedAt:null,escalatedAt:null};
+assert.equal(escalateRequest(base,t+ESCALATION_MS-1,false),base);
+const timed=escalateRequest(base,t+ESCALATION_MS,false);assert.equal(timed.status,'escalated');assert.equal(timed.floor,2);assert.notEqual(timed.status,'resolved');
+assert.equal(escalateRequest(base,t+ESCALATION_MS,true).status,'escalation-failed');
+assert.equal(escalateRequest({status:'failed'},t+ESCALATION_MS,false).status,'failed');
+const seen={...base,status:'accepted',acknowledgedAt:t+1000};assert.equal(escalateRequest(seen,t+ESCALATION_MS,false),seen);
+const waiting=reportNoAdult(seen,t+40000,false);assert.equal(waiting.status,'escalated');assert.equal(waiting.floor,2);assert.equal(waiting.block,'B');assert.equal(waiting.acknowledgedAt,seen.acknowledgedAt);assert.equal(waiting.stillWaitingAt,t+40000);
+const lost=reportNoAdult(seen,t+40000,true);assert.equal(lost.status,'escalation-failed');assert.equal(lost.floor,2);
+assert.equal(confirmHandover(waiting,false),waiting);assert.equal(confirmHandover(waiting,undefined),waiting);assert.equal(confirmHandover({status:'failed'},true).status,'failed');
+const closed=confirmHandover(waiting,true);assert.equal(closed.status,'resolved');assert.equal(closed.floor,null);assert.equal(closed.block,null);assert.equal(closed.locationChoice,null);
+assert.equal(reportNoAdult(closed,t+50000,false),closed);assert.equal(escalateRequest(closed,t+60000,false,true),closed);
+console.log('PASS: timer boundary, offline escalation, unaccepted delivery, no auto handover, no-adult follow-up, explicit closure.');

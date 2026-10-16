@@ -1,0 +1,169 @@
+{
+  "name": "DPS Modern Indian School · Al Wakrah",
+  "revision": "Campus study 05",
+  "accuracy": "Approximate exterior campus study. Participant feedback identifies the west academic footprint as A Block, the central academic footprint as C Block, and the north-west area as a playground. A gap between A and C leads toward the volleyball and basketball courts. Building dimensions, heights and floor labels remain schematic. No interiors are modelled. Participant also identifies a stage facing the sports ground and a canteen at the ground-facing corner of C Block; both are approximate exterior landmarks. Latest participant correction: the external auditorium obscures part of the stadium-facing C Block facade; the canteen sits at that facade's corner beside the near edge of the stadium.",
+  "units": "illustrative model units, not metres",
+  "sources": [
+    {
+      "title": "Public satellite reference",
+      "url": "https://www.google.com/maps/@25.1747,51.603,430m/data=!3m1!1e3",
+      "use": "Relative exterior masses: west academic footprint, northeast roof mass, southeast sports ground and west outdoor courts. Viewed 15 October 2026. Imagery date unknown."
+    },
+    {
+      "title": "Official facilities description",
+      "url": "https://website.dpsmisdoha.com/mis-facilities/area-and-building/",
+      "use": "Three named blocks and campus facilities. Does not establish exact block locations or interiors."
+    },
+    {
+      "title": "Official infrastructure disclosure",
+      "url": "https://dpsmisdoha.com/DPSDoha/userspace/username/admin/DynamicFolder/AboutUs/DPS_MIS_Information/DPS_MIS_Information_MandatoryDisclosure.html",
+      "use": "Public school information and a linked inspection video. Interior positions remain unverified."
+    }
+  ],
+  "places": [
+    {
+      "id": "west",
+      "name": "A Block · West academic",
+      "short": "A Block",
+      "kind": "building",
+      "x": -13,
+      "z": 12,
+      "w": 21,
+      "d": 49,
+      "floors": 3,
+      "confidence": "Block identity supplied by the participant; exterior dimensions approximate",
+      "parts": [
+        [
+          -21,
+          12,
+          6,
+          49
+        ],
+        [
+          -5,
+          12,
+          6,
+          49
+        ],
+        [
+          -13,
+          -10,
+          11,
+          5
+        ],
+        [
+          -13,
+          10,
+          11,
+          5
+        ],
+        [
+          -13,
+          34,
+          11,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "central",
+      "name": "C Block · Central academic",
+      "short": "C Block",
+      "kind": "building",
+      "x": -12,
+      "z": -23,
+      "w": 25,
+      "d": 14,
+      "floors": 3,
+      "confidence": "Participant identifies C Block and an open gap to A Block leading toward the small courts; dimensions approximate",
+      "parts": [
+        [
+          -12,
+          -23,
+          25,
+          14
+        ]
+      ]
+    },
+    {
+      "id": "north",
+      "name": "North-west playground",
+      "short": "Playground",
+      "kind": "playground",
+      "x": -8,
+      "z": -41,
+      "w": 13,
+      "d": 21,
+      "floors": 1,
+      "confidence": "Participant corrects this area to a playground, rather than a building"
+    },
+    {
+      "id": "hall",
+      "name": "East building · Label unconfirmed",
+      "short": "East building",
+      "kind": "building",
+      "x": 18,
+      "z": -28,
+      "w": 25,
+      "d": 32,
+      "floors": 3,
+      "confidence": "Exterior mass retained; previous C Block label withdrawn after participant correction",
+      "parts": [
+        [
+          18,
+          -28,
+          25,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "field",
+      "name": "Sports ground",
+      "short": "Sports ground",
+      "kind": "outdoor",
+      "x": 18,
+      "z": 17,
+      "w": 24,
+      "d": 42,
+      "floors": 1,
+      "confidence": "Ground and surrounding track visible in satellite imagery"
+    },
+    {
+      "id": "courts",
+      "name": "Volleyball & basketball courts",
+      "short": "Small courts",
+      "kind": "outdoor",
+      "x": -31,
+      "z": 16,
+      "w": 10,
+      "d": 37,
+      "floors": 1,
+      "confidence": "Participant describes two small volleyball/basketball courts accessed via the gap between A and C"
+    },
+    {
+      "id": "stage",
+      "name": "Stage / external auditorium",
+      "short": "Stage",
+      "kind": "landmark",
+      "x": -10,
+      "z": -11,
+      "w": 20,
+      "d": 8,
+      "floors": 1,
+      "confidence": "Participant places the external auditorium directly in front of the stadium-facing part of C Block, obscuring part of that facade; dimensions remain schematic"
+    },
+    {
+      "id": "canteen",
+      "name": "Canteen · C Block corner",
+      "short": "Canteen",
+      "kind": "landmark",
+      "x": 3.4,
+      "z": -9.3,
+      "w": 5.2,
+      "d": 5,
+      "floors": 1,
+      "confidence": "Participant places the canteen at C Block's stadium-facing corner, directly beside the nearest stadium edge; dimensions remain schematic"
+    }
+  ]
+}
