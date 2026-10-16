@@ -6,7 +6,7 @@ Najda is an original school-assistance UI/UX submission by Atif Al Azad · XI-D 
 
 ## Four focused steps
 
-Location, help type, review and response are separate phone screens. Large hazard icons and visible Back/Next controls fit without page scrolling at the tested phone viewports. The optional block, nearby detail and exterior campus map remain available. Medical help is the default.
+Help type, location, review and response are separate phone screens. Large hazard icons and visible Back/Next controls fit without page scrolling at the tested phone viewports. All help types appear on the opening screen, with a prominent location shortcut. Large floor buttons, the optional block, nearby detail and exterior campus map remain available. Medical help is the default.
 
 The response shows delivery, a 30-second countdown and pending adult arrival. An unanswered request opens a dedicated office-follow-up screen. Choosing No, I still need help keeps the request and location active and marks the duty inbox Student still waiting. Handover closes only after explicit confirmation.
 
@@ -34,4 +34,4 @@ Original NAJDA layout and flow. Manrope, Tabler icons, React and Three.js retain
 
 ## Identity
 
-Najda | نجدة — Emergency Connect. The app uses its own wordmark and N icon. The school crest is not displayed or included in the current source package. The original project URL remains unchanged so existing links keep working. Legacy RELAY-named download URLs are compatibility aliases for the current Najda files.
+Najda | نجدة — Emergency Connect. The app uses its own teal bilingual wordmark and connected-stroke icon. The school crest is not displayed or included in the current source package. The original project URL remains unchanged so existing links keep working. Legacy RELAY-named download URLs are compatibility aliases for the current Najda files.
