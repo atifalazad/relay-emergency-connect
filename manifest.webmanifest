@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "RELAY Emergency Connect",
-  "short_name": "RELAY",
-  "description": "School assistance, one connection at a time.",
+  "name": "Najda | نجدة — Emergency Connect",
+  "short_name": "Najda",
+  "description": "Emergency Connect: school assistance, one clear step at a time.",
   "start_url": "./?screen=home",
   "scope": "./",
   "display": "standalone",

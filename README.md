@@ -1,8 +1,8 @@
-# RELAY · Emergency Connect
+# Najda | نجدة · Emergency Connect
 
 [Open the app](https://atif10ala.github.io/relay-emergency-connect/)
 
-An original school-assistance UI/UX submission by Atif Al Azad · XI-D · 10673 · Rose House. Open the link in a browser; no download is required.
+Najda is an original school-assistance UI/UX submission by Atif Al Azad · XI-D · 10673 · Rose House. Open the link in a browser; no download is required.
 
 ## Four focused steps
 
@@ -22,12 +22,16 @@ Request-model checks verify the timer boundary, offline escalation, no-adult fol
 
 ## Submission files
 
-RELAY-submission.pdf: eight concise pages, including all main screens, follow-up and reliability states; approximately 1.3 MB.
-RELAY-statement.pdf: separate one-page Statement.
-RELAY-statement.txt: plain text copy.
-RELAY-screen-exports.zip: sixteen phone PNG exports.
-RELAY-source.zip: editable React/Three.js sources, assets, licences and lifecycle checks.
+NAJDA-submission.pdf: eight concise pages, including all main screens, follow-up and reliability states; approximately 1.4 MB.
+NAJDA-statement.pdf: separate one-page Statement.
+NAJDA-statement.txt: plain text copy.
+NAJDA-screen-exports.zip: sixteen phone PNG exports.
+NAJDA-source.zip: editable React/Three.js sources, assets, licences and lifecycle checks.
 
 ## Assets
 
-Original RELAY layout and flow. Manrope, Tabler icons, React and Three.js retain their licences. The monochrome school doodle pattern was generated with the built-in image tool; see asset-notes.txt. It does not depict verified school architecture.
+Original NAJDA layout and flow. Manrope, Tabler icons, React and Three.js retain their licences. The monochrome school doodle pattern was generated with the built-in image tool; see asset-notes.txt. It does not depict verified school architecture.
+
+## Identity
+
+Najda | نجدة — Emergency Connect. The app uses its own wordmark and N icon. The school crest is not displayed or included in the current source package. The original project URL remains unchanged so existing links keep working. Legacy RELAY-named download URLs are compatibility aliases for the current Najda files.
